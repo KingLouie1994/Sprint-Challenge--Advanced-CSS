@@ -252,15 +252,15 @@ footer {
   background-color: black;
 }
 .home .walk .walk-text .btn:hover {
-  transition: 0.3s;
   background-color: grey;
-  font-size: 22px;
+  font-size: 20px;
+  transition: 0.5s;
 }
-.home .walk .walk-text .walk-img {
+.home .walk .walk-img {
   width: 46%;
   margin-left: 4%;
 }
-.home .walk .walk-text .walk-img img {
+.home .walk .walk-img img {
   width: 100%;
   height: auto;
   border-radius: 10px;
