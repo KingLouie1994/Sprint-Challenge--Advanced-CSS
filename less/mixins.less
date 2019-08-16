@@ -1,1 +1,36 @@
 // Mixins Here
+
+.flex-navs() {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.longerThanRest() {
+    margin-left: -100px;
+    margin-right: -100px;
+}
+
+  #button-mixins() {
+    .button-desktop(@width, @borderradius){
+        width: @width;
+        border-radius: @borderradius;
+        padding-top: @smallpadding;
+        padding-bottom: @smallpadding;
+        font-size: @button;
+        text-align: center;
+        color: white;
+        background-color: black;
+      }  
+
+    .button-mobile(@width, @borderradius) {
+        width: @width;
+        border-radius: @borderradius;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        font-size: @button;
+        text-align: center;
+        color: white;
+        background-color: @btn-bg-color;
+    }
+}
