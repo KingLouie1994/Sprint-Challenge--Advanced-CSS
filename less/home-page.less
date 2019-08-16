@@ -4,6 +4,10 @@
 
   .intro {
 
+    img {
+      border-radius: 5px;
+    }
+
     h2 {
       padding: 15px;
     }
@@ -58,7 +62,13 @@
       }
 
       .btn {
+        .button-layout(100px, 5px);
       }
+
+      .btn:hover {
+        transition: 0.3s;
+        background-color: grey;
+        font-size: 22px;
     }
 
     .walk-img {
@@ -72,4 +82,5 @@
       }
     }
   }
+}
 }// home

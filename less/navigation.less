@@ -1,1 +1,28 @@
 // Navigation code here
+
+.nameandnav {
+    .flex-navs();
+    .longerThanRest();
+    padding-top: @smallpadding;
+    padding-bottom: 15px;
+    background-color: @nav-bg;
+
+    h1 {
+        font-size: @name;
+        padding-bottom: @mediumpadding;
+    }
+}
+
+nav {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    margin-left: @largemargin;
+
+    a {
+        font-size: @nav;
+        text-decoration: none;
+        color: @river-bend;
+        padding-right: @largepadding;
+        }
+}
